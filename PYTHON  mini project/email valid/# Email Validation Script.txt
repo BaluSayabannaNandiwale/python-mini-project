@@ -1,0 +1,43 @@
+# Email Validation Script
+
+This project contains a simple Python script to validate email addresses using regular expressions.
+
+## Requirements
+
+- Python 3.x
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/email-validation.git
+    cd email-validation
+    ```
+
+2. No additional installations are required as `re` is part of the Python standard library.
+
+## Usage
+
+1. Open the `email_validation.py` file.
+2. Run the script:
+    ```sh
+    python email_validation.py
+    ```
+3. Enter an email address when prompted to validate.
+
+## Code Explanation
+
+- **Email Validation Pattern**: The script defines a regular expression pattern to match valid email addresses.
+- **User Input**: Prompts the user to enter an email address.
+- **Validation**: Uses the `re.search()` method to check if the entered email matches the pattern.
+- **Output**: Prints whether the entered email is valid or not.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### Important Note
+Ensure that the regular expression pattern is suitable for your specific use case, as it may not cover all valid email formats.
+

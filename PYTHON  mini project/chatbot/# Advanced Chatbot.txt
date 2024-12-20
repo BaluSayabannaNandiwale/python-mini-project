@@ -1,0 +1,34 @@
+# Advanced Chatbot
+
+## Description
+
+This project is an advanced chatbot implemented using Python's Tkinter library. The chatbot provides a simple graphical user interface (GUI) to interact with users and responds to basic queries.
+
+## Features
+
+- **Graphical User Interface**: Uses Tkinter to create a user-friendly interface.
+- **Automated Responses**: Provides predefined responses to common queries.
+- **Interactive Chat Area**: Displays the conversation history in a scrollable text area.
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/advanced-chatbot.git
+    cd advanced-chatbot
+    ```
+
+2. Install the required packages:
+    - Tkinter (usually included with Python, but you can install it if needed):
+        ```sh
+        sudo apt-get install python3-tk
+        ```
+
+## Usage
+
+1. Run the `chatbot.py` script:
+    ```sh
+    python chatbot.py
+    ```
+
+2. Interact with the chatbot through

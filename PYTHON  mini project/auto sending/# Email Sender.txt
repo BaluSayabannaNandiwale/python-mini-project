@@ -1,0 +1,48 @@
+# Email Sender
+
+This project contains a simple Python script to send an email using the `smtplib` library.
+
+## Requirements
+
+- Python 3.x
+- `smtplib`
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/email-sender.git
+    cd email-sender
+    ```
+
+2. No additional installations are required as `smtplib` is part of the Python standard library.
+
+## Usage
+
+1. Open the `email_sender.py` file.
+2. Replace the following placeholders with your own email credentials and details:
+    - `your_email@example.com` (your email)
+    - `your_password` (your email password)
+    - `recipient@example.com` (recipient's email)
+3. Run the script:
+    ```sh
+    python email_sender.py
+    ```
+
+## Code Explanation
+
+- **SMTP Setup**: The script sets up the SMTP server for Gmail (`smtp.gmail.com`) on port 587 and starts TLS for security.
+- **Login**: Logs in to the SMTP server using the provided email and password.
+- **Email Content**: Defines the subject and body of the email.
+- **Send Email**: Sends the email to the specified list of recipients.
+- **Quit**: Quits the SMTP server after sending the email.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### Important Note
+Make sure to use secure methods to handle your email credentials. Consider using environment variables or a configuration file to store sensitive information.
+

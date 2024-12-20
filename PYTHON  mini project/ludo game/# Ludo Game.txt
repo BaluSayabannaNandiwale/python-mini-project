@@ -1,0 +1,49 @@
+# Ludo Game
+
+## Description
+
+This project implements a simple Ludo game using Python. The game supports multiple players and simulates rolling dice, moving tokens, and handling special conditions on the board.
+
+## Features
+
+- **Player Management**: Add and manage multiple players.
+- **Dice Rolling**: Simulate dice rolls to determine player moves.
+- **Board Movement**: Move player tokens on the board and handle special conditions.
+- **Game Progression**: Automatically progress through players' turns until the game ends.
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/ludo-game.git
+    cd ludo-game
+    ```
+
+2. No additional packages are required as the game uses standard Python libraries.
+
+## Usage
+
+1. Open the `ludo_game.py` file.
+2. Run the script:
+    ```sh
+    python ludo_game.py
+    ```
+
+3. Follow the prompts to play the game. The game will display messages indicating the progress of each player's turn and special conditions encountered.
+
+## Code Explanation
+
+- **LudoGame Class**: Manages the overall game, including player turns and game progression.
+- **Player Class**: Represents a player in the game with a name and position on the board.
+- **Board Class**: Represents the game board with tiles and methods to move tokens and check special conditions.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### Notes
+
+- Customize the board size and special conditions as needed.
+- Add more features to enhance the gameplay experience.

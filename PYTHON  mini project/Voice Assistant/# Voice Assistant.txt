@@ -1,0 +1,40 @@
+# Voice Assistant
+
+This is a simple voice assistant script that can recognize speech, respond with text-to-speech, and perform various actions like telling jokes, opening websites, and more.
+
+## Features
+
+- Speech recognition using Google Web Speech API
+- Text-to-speech response using pyttsx3
+- Opens websites like YouTube and Replit
+- Tells jokes using pyjokes
+- Reports the current time
+
+## Requirements
+
+- Python 3.x
+- pyttsx3
+- speech_recognition
+- webbrowser
+- datetime
+- pyjokes
+- os (standard library)
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/voice_assistant.git
+    cd voice_assistant
+    ```
+
+2. Install the required packages:
+    ```sh
+    pip install pyttsx3 speechrecognition pyjokes
+    ```
+
+## Usage
+
+Run the script:
+```sh
+python script_name.py

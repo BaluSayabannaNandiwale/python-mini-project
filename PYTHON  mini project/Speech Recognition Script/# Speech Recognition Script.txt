@@ -1,0 +1,51 @@
+# Speech Recognition Script
+
+## Description
+
+This project provides a simple Python script that uses the Google Web Speech API to recognize and transcribe speech from the microphone.
+
+## Features
+
+- **Speech Recognition**: Converts spoken words into text using Google Speech Recognition.
+- **Error Handling**: Handles errors for unrecognized speech and request issues.
+
+## Installation
+
+1. Clone the repository:
+    ```sh
+    git clone https://github.com/your-username/speech-recognition.git
+    cd speech-recognition
+    ```
+
+2. Install the required package:
+    ```sh
+    pip install SpeechRecognition
+    ```
+
+## Usage
+
+1. Open the `speech_recognition.py` file.
+2. Run the script:
+    ```sh
+    python speech_recognition.py
+    ```
+
+3. Speak into your microphone, and the script will transcribe your speech and display it.
+
+## Code Explanation
+
+- **Initialization**: Initializes the speech recognizer.
+- **Audio Capture**: Uses the microphone as the source to listen for speech.
+- **Speech Recognition**: Uses Google's speech recognition to transcribe the captured audio.
+- **Error Handling**: Catches and handles errors if speech is not recognized or if there is a request issue.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+---
+
+### Notes
+
+- Ensure you have a working microphone.
+- Requires an internet connection for Google Web Speech API.
